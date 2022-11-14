@@ -5,7 +5,7 @@ create table request_makeup (
 	id INT(10) AUTO_INCREMENT, 
 	name varchar(50), 
 	missed_course varchar(50),
-    	ct_date varchar(10),
+    	ct_date varchar(30),
     	reason varchar(50),
     	statu_s varchar(20),
 	PRIMARY KEY(id) 
